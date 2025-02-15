@@ -5,7 +5,7 @@ Kernels for dropout.
 import triton
 import triton.language as tl
 
-from .tune_configs import element_wise_kernel_configs
+from .utils.configs import element_wise_kernel_configs
 
 
 @triton.jit

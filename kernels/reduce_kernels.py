@@ -2,7 +2,7 @@ import triton
 import triton.language as tl
 from triton import next_power_of_2
 from triton.language.extra import libdevice
-from .tune_configs import reduce3d_kernel_configs
+from .utils.configs import reduce3d_kernel_configs
 
 
 @triton.autotune(

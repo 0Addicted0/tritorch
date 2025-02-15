@@ -6,7 +6,7 @@ import triton
 import triton.language as tl
 
 from .dropout_kernels import apply_dropout, apply_dropout_grad
-from .tune_configs import element_wise_kernel_configs
+from .utils.configs import element_wise_kernel_configs
 
 
 @triton.jit

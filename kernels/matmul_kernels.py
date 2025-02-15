@@ -1,8 +1,8 @@
 import triton
 import triton.language as tl
 
-from .utils import allow_tf32
-from .tune_configs import matmul_kernel_configs
+from .utils.common import allow_tf32
+from .utils.configs import matmul_kernel_configs
 from .act_kernels import apply_act_func
 
 

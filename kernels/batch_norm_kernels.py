@@ -9,7 +9,7 @@ import triton.language as tl
 from triton import next_power_of_2
 
 from .act_kernels import apply_act_func
-from .tune_configs import warps_kernel_configs
+from .utils.configs import warps_kernel_configs
 
 
 def BLOCK_SIZE_SPATIAL_heuristic(args: Dict) -> int:

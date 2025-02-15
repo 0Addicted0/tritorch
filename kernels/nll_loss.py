@@ -4,7 +4,7 @@ forward/backward kernels for negtive log likelihood loss(NLLLoss)
 
 import triton
 import triton.language as tl
-from .tune_configs import warps_kernel_configs
+from .utils.configs import warps_kernel_configs
 
 
 def BLOCK_SIZE_BATCH_heuristic(args) -> int:
